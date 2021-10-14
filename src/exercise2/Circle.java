@@ -7,7 +7,6 @@ public class Circle {
         final double pi = 3.14;
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter a radius: ");
         double radius = input.nextDouble();
 
         double C = 2 * radius * pi;
