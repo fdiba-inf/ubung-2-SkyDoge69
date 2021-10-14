@@ -13,6 +13,6 @@ public class Circle {
         double A = pi * Math.pow(radius, 2);
 
         System.out.println("Circumference: " + C);
-//        System.out.println("Area: " + A);
+        System.out.println("Area: " + A);
     }
 }
