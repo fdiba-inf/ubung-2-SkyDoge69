@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Circle {
     public static void main(String[] args) {
-        final double pi = 3.14;
+        final double pi = Math.PI;
         Scanner input = new Scanner(System.in);
 
         double radius = input.nextDouble();
