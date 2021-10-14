@@ -27,7 +27,7 @@ public class QuadraticEquation {
             }
         } else {
             if (b != 0) {
-                System.out.println(-b/2*a);
+                System.out.println(-b/2.0*a);
             } else {
                 if (c != 0) {
                     System.out.println("No values");
