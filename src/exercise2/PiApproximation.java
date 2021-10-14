@@ -2,7 +2,7 @@ package exercise2;
 
 public class PiApproximation {
     public static void main(String[] args) {
-       float Pi = 4*(1/3 + 1/5 + 1/7 + 1/11 - 1/13 + 1/17 - 1/19 + 1/23);
+       float Pi = 4f*(1 - 1f/3 + 1f/5 - 1f/7 + 1f/11 - 1f/13 + 1f/17 - 1f/19 + 1f/23);
        System.out.println("Pi: " + Pi);
     }
 }
