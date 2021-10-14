@@ -20,7 +20,7 @@ public class QuadraticEquation {
         } else {
             double x1 = (-b + sqrt(Disk))/ (2 * a);
             double x2 = (-b - sqrt(Disk))/ (2 * a);
-            System.out.println(x1);
+            System.out.print(x1 + ", ");
             System.out.println(x2);
         }
 
