@@ -9,9 +9,9 @@ public class QuadraticEquation {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        int a = input.nextInt();
-        int b = input.nextInt();
-        int c = input.nextInt();
+        double a = input.nextDouble();
+        double b = input.nextDouble();
+        double c = input.nextDouble();
 
         if (a != 0) {
 
@@ -27,7 +27,7 @@ public class QuadraticEquation {
             }
         } else {
             if (b != 0) {
-                System.out.println(-b/2.0*a);
+                System.out.println(-c/b);
             } else {
                 if (c != 0) {
                     System.out.println("No values");
