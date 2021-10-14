@@ -12,9 +12,6 @@ public class QuadraticEquation {
         int b = input.nextInt();
         int c = input.nextInt();
 
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
 
         double Disk = Math.pow(b, 2) - 4 * a * c;
 
