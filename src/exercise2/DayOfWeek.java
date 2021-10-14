@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class DayOfWeek {
     public static void main(String[] args) {
-        String error = "Invalid day";
+//        String error = "Invalid day";
 
         Scanner input = new Scanner(System.in);
 
@@ -33,7 +33,7 @@ public class DayOfWeek {
                 System.out.println("Day of week: Sunday");
                 break;
             default:
-                System.out.println(error);
+                System.out.println("Day of week: Invalid day");
         }
     }
 }
